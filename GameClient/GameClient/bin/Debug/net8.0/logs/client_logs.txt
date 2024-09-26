@@ -1,0 +1,51 @@
+2024-09-25 14:33:42.994 +03:00 [INF] Connecting to the server...
+2024-09-25 14:33:43.093 +03:00 [INF] Connected!
+2024-09-25 14:33:43.115 +03:00 [INF] Sent:
+2024-09-25 14:33:43.220 +03:00 [INF] Received:
+2024-09-25 14:33:43.227 +03:00 [INF] Sent:
+2024-09-25 14:33:43.231 +03:00 [INF] Received:
+2024-09-25 14:33:43.237 +03:00 [INF] Sent:
+2024-09-25 14:33:43.240 +03:00 [INF] Sent:
+2024-09-25 14:33:43.252 +03:00 [INF] Received:
+2024-09-25 14:33:43.258 +03:00 [INF] Received:
+2024-09-25 14:36:03.180 +03:00 [INF] Connecting to the server...
+2024-09-25 14:36:03.269 +03:00 [INF] Connected!
+2024-09-25 14:36:03.290 +03:00 [INF] Sent: {"Type":"Login","Payload":{"DeviceId":"device-111"}}
+2024-09-25 14:36:03.377 +03:00 [INF] Received: {"Status":"Error","Message":"Invalid JSON format","Details":"JSON deserialization for type \u0027GameServer.Common.Messages.LoginMessage\u0027 was missing required properties, including the following: UDID"}
+2024-09-25 14:36:03.384 +03:00 [INF] Sent: {"Type":"Login","Payload":{"DeviceId":"device-222"}}
+2024-09-25 14:36:03.387 +03:00 [INF] Received: {"Status":"Error","Message":"Invalid JSON format","Details":"JSON deserialization for type \u0027GameServer.Common.Messages.LoginMessage\u0027 was missing required properties, including the following: UDID"}
+2024-09-25 14:36:03.393 +03:00 [INF] Sent: {"Type":"UpdateResources","Payload":{"PlayerId":"Error","ResourceType":"coins","ResourceValue":100}}
+2024-09-25 14:36:03.395 +03:00 [INF] Sent: {"Type":"SendGift","Payload":{"SenderPlayerId":"Error","FriendPlayerId":"Error","ResourceType":"coins","ResourceValue":50}}
+2024-09-25 14:36:03.400 +03:00 [INF] Received: {"Status":"Error","Message":"Player not found"}
+2024-09-25 14:36:03.403 +03:00 [INF] Received: {"Status":"Error","Message":"Sender or friend not found"}
+2024-09-25 14:37:18.523 +03:00 [INF] Connecting to the server...
+2024-09-25 14:37:18.615 +03:00 [INF] Connected!
+2024-09-25 14:37:18.636 +03:00 [INF] Sent: {"Type":"Login","Payload":{"UDID":"device-111"}}
+2024-09-25 14:37:18.715 +03:00 [INF] Received: {"Status":"Success","PlayerId":"78bb8892-d353-416c-bc5f-08aed81b62e2"}
+2024-09-25 14:37:18.724 +03:00 [INF] Sent: {"Type":"Login","Payload":{"UDID":"device-222"}}
+2024-09-25 14:37:18.727 +03:00 [INF] Received: {"Status":"Success","PlayerId":"8b0a8039-6dfc-4c19-b82d-1cbeb30c0cbb"}
+2024-09-25 14:37:18.732 +03:00 [INF] Sent: {"Type":"UpdateResources","Payload":{"PlayerId":"78bb8892-d353-416c-bc5f-08aed81b62e2","ResourceType":"coins","ResourceValue":100}}
+2024-09-25 14:37:18.734 +03:00 [INF] Sent: {"Type":"SendGift","Payload":{"SenderPlayerId":"78bb8892-d353-416c-bc5f-08aed81b62e2","FriendPlayerId":"8b0a8039-6dfc-4c19-b82d-1cbeb30c0cbb","ResourceType":"coins","ResourceValue":50}}
+2024-09-25 14:37:18.741 +03:00 [INF] Received: {"Status":"Success","ResourceType":"coins","Amount":100}
+2024-09-25 14:37:18.747 +03:00 [INF] Received: {"EventType":"GiftEvent","FromPlayerId":"78bb8892-d353-416c-bc5f-08aed81b62e2","ResourceType":"coins","ResourceValue":50}
+2024-09-25 14:37:18.748 +03:00 [INF] Received: {"Status":"Success","Message":"Gift sent successfully"}
+2024-09-26 10:37:05.975 +03:00 [INF] Connecting to the server...
+2024-09-26 10:37:06.282 +03:00 [INF] Connected!
+2024-09-26 10:37:06.333 +03:00 [INF] Sent: {"Type":"Login","Payload":{"UDID":"device-111"}}
+2024-09-26 10:37:06.337 +03:00 [INF] Received: {"Status":"Success","PlayerId":"3942f973-a1b2-46b4-90d2-d878b3cbdee4"}
+2024-09-26 10:37:06.338 +03:00 [INF] Sent: {"Type":"Login","Payload":{"UDID":"device-222"}}
+2024-09-26 10:37:06.342 +03:00 [INF] Received: {"Status":"Success","PlayerId":"5a30e566-00a4-416c-9620-75ed07bff005"}
+2024-09-26 10:37:34.178 +03:00 [INF] Sent: {"Type":"UpdateResources","Payload":{"PlayerId":"3942f973-a1b2-46b4-90d2-d878b3cbdee4","ResourceType":"coins","ResourceValue":100}}
+2024-09-26 10:37:36.319 +03:00 [INF] Received: {"Status":"Success","ResourceType":"coins","Amount":100}
+2024-09-26 10:37:36.332 +03:00 [INF] Sent: {"Type":"SendGift","Payload":{"SenderPlayerId":"3942f973-a1b2-46b4-90d2-d878b3cbdee4","FriendPlayerId":"5a30e566-00a4-416c-9620-75ed07bff005","ResourceType":"coins","ResourceValue":50}}
+2024-09-26 10:37:40.380 +03:00 [INF] Received: {"EventType":"GiftEvent","FromPlayerId":"3942f973-a1b2-46b4-90d2-d878b3cbdee4","ResourceType":"coins","ResourceValue":50}
+2024-09-26 10:39:24.143 +03:00 [INF] Connecting to the server...
+2024-09-26 10:39:24.429 +03:00 [INF] Connected!
+2024-09-26 10:39:24.481 +03:00 [INF] Sent: {"Type":"Login","Payload":{"UDID":"device-111"}}
+2024-09-26 10:39:24.521 +03:00 [INF] Received: {"Status":"Success","PlayerId":"77039768-c4a6-4328-ac09-6bbe34422afc"}
+2024-09-26 10:39:24.523 +03:00 [INF] Sent: {"Type":"Login","Payload":{"UDID":"device-222"}}
+2024-09-26 10:39:24.525 +03:00 [INF] Received: {"Status":"Success","PlayerId":"c795ffc2-289c-47c9-93ab-c1b25dee7cb1"}
+2024-09-26 10:39:33.623 +03:00 [INF] Sent: {"Type":"UpdateResources","Payload":{"PlayerId":"77039768-c4a6-4328-ac09-6bbe34422afc","ResourceType":"coins","ResourceValue":100}}
+2024-09-26 10:39:40.394 +03:00 [INF] Received: {"Status":"Success","ResourceType":"coins","Amount":100}
+2024-09-26 10:39:40.397 +03:00 [INF] Sent: {"Type":"SendGift","Payload":{"SenderPlayerId":"77039768-c4a6-4328-ac09-6bbe34422afc","FriendPlayerId":"c795ffc2-289c-47c9-93ab-c1b25dee7cb1","ResourceType":"coins","ResourceValue":50}}
+2024-09-26 10:39:50.270 +03:00 [INF] Received: {"EventType":"GiftEvent","FromPlayerId":"77039768-c4a6-4328-ac09-6bbe34422afc","ResourceType":"coins","ResourceValue":50}

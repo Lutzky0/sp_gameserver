@@ -1,0 +1,11 @@
+C:\sp_game\GameServer\GameServer.interface\bin\Debug\net8.0\GameServer.common.deps.json
+C:\sp_game\GameServer\GameServer.interface\bin\Debug\net8.0\GameServer.common.dll
+C:\sp_game\GameServer\GameServer.interface\bin\Debug\net8.0\GameServer.common.pdb
+C:\sp_game\GameServer\GameServer.interface\obj\Debug\net8.0\GameServer.common.GeneratedMSBuildEditorConfig.editorconfig
+C:\sp_game\GameServer\GameServer.interface\obj\Debug\net8.0\GameServer.common.AssemblyInfoInputs.cache
+C:\sp_game\GameServer\GameServer.interface\obj\Debug\net8.0\GameServer.common.AssemblyInfo.cs
+C:\sp_game\GameServer\GameServer.interface\obj\Debug\net8.0\GameServer.common.csproj.CoreCompileInputs.cache
+C:\sp_game\GameServer\GameServer.interface\obj\Debug\net8.0\GameServer.common.dll
+C:\sp_game\GameServer\GameServer.interface\obj\Debug\net8.0\refint\GameServer.common.dll
+C:\sp_game\GameServer\GameServer.interface\obj\Debug\net8.0\GameServer.common.pdb
+C:\sp_game\GameServer\GameServer.interface\obj\Debug\net8.0\ref\GameServer.common.dll

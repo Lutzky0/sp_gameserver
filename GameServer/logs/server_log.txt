@@ -1,0 +1,34 @@
+2024-09-25 10:30:19.325 +03:00 [INF] WebSocket server started at http://localhost:5000/
+2024-09-25 10:30:25.519 +03:00 [INF] New WebSocket connection established.
+2024-09-25 10:33:15.323 +03:00 [INF] WebSocket server started at http://localhost:5000/
+2024-09-25 10:33:37.287 +03:00 [INF] New WebSocket connection established.
+2024-09-25 10:42:02.347 +03:00 [INF] WebSocket server started at http://localhost:5000/
+2024-09-25 10:42:07.261 +03:00 [INF] New WebSocket connection established.
+2024-09-25 10:42:07.266 +03:00 [ERR] WebSocket exception: The remote party closed the WebSocket connection without completing the close handshake.
+2024-09-25 10:42:07.276 +03:00 [INF] WebSocket connection closed.
+2024-09-25 10:42:07.277 +03:00 [INF] New WebSocket connection established.
+2024-09-25 10:42:07.280 +03:00 [INF] Received message: {"Type":"Login", "Payload": {"DeviceId":"device-123"}}
+2024-09-25 10:42:07.364 +03:00 [INF] Player with DeviceId device-123 successfully logged in with PlayerId 8f2acda8-1549-49ab-9efe-9b94225732da
+2024-09-25 10:42:07.372 +03:00 [ERR] WebSocket exception: The remote party closed the WebSocket connection without completing the close handshake.
+2024-09-25 10:42:07.373 +03:00 [INF] WebSocket connection closed.
+2024-09-25 10:42:07.374 +03:00 [INF] New WebSocket connection established.
+2024-09-25 10:44:12.443 +03:00 [ERR] WebSocket exception: An internal WebSocket error occurred. Please see the innerException, if present, for more details. 
+2024-09-25 10:44:12.445 +03:00 [INF] WebSocket connection closed.
+2024-09-25 10:44:12.446 +03:00 [INF] New WebSocket connection established.
+2024-09-25 10:44:12.455 +03:00 [ERR] WebSocket exception: The remote party closed the WebSocket connection without completing the close handshake.
+2024-09-25 10:44:12.456 +03:00 [INF] WebSocket connection closed.
+2024-09-25 10:44:12.457 +03:00 [INF] New WebSocket connection established.
+2024-09-25 10:44:12.458 +03:00 [INF] Received message: {"Type":"Login", "Payload": {"DeviceId":"device-123"}}
+2024-09-25 10:44:12.459 +03:00 [WRN] Player with DeviceId device-123 is already connected
+2024-09-25 10:44:12.463 +03:00 [INF] Received message: {"Type":"UpdateResources", "Payload": {"PlayerId":"Error", "ResourceType":"coins", "ResourceValue":100}}
+2024-09-25 10:44:12.467 +03:00 [WRN] Player with PlayerId Error not found
+2024-09-25 10:44:12.483 +03:00 [ERR] WebSocket exception: The remote party closed the WebSocket connection without completing the close handshake.
+2024-09-25 10:44:12.484 +03:00 [INF] WebSocket connection closed.
+2024-09-25 10:44:12.485 +03:00 [INF] New WebSocket connection established.
+2024-09-25 10:44:12.487 +03:00 [INF] Received message: {"Type":"Login", "Payload": {"DeviceId":"device-123"}}
+2024-09-25 10:44:12.489 +03:00 [WRN] Player with DeviceId device-123 is already connected
+2024-09-25 10:44:12.508 +03:00 [ERR] WebSocket exception: The remote party closed the WebSocket connection without completing the close handshake.
+2024-09-25 10:44:12.509 +03:00 [INF] WebSocket connection closed.
+2024-09-25 10:44:12.514 +03:00 [INF] New WebSocket connection established.
+2024-09-25 10:45:58.373 +03:00 [ERR] WebSocket exception: An internal WebSocket error occurred. Please see the innerException, if present, for more details. 
+2024-09-25 10:45:58.374 +03:00 [INF] WebSocket connection closed.
