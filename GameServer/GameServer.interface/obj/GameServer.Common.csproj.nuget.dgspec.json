@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\sp_game\\GameServer\\GameServer.interface\\GameServer.Common.csproj": {}
+    "C:\\test\\sp_gameserver\\GameServer\\GameServer.interface\\GameServer.Common.csproj": {}
   },
   "projects": {
-    "C:\\sp_game\\GameServer\\GameServer.interface\\GameServer.Common.csproj": {
+    "C:\\test\\sp_gameserver\\GameServer\\GameServer.interface\\GameServer.Common.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\sp_game\\GameServer\\GameServer.interface\\GameServer.Common.csproj",
+        "projectUniqueName": "C:\\test\\sp_gameserver\\GameServer\\GameServer.interface\\GameServer.Common.csproj",
         "projectName": "GameServer.Common",
-        "projectPath": "C:\\sp_game\\GameServer\\GameServer.interface\\GameServer.Common.csproj",
+        "projectPath": "C:\\test\\sp_gameserver\\GameServer\\GameServer.interface\\GameServer.Common.csproj",
         "packagesPath": "C:\\Users\\I532408\\.nuget\\packages\\",
-        "outputPath": "C:\\sp_game\\GameServer\\GameServer.interface\\obj\\",
+        "outputPath": "C:\\test\\sp_gameserver\\GameServer\\GameServer.interface\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -39,11 +39,6 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -55,17 +50,11 @@
             "net47",
             "net471",
             "net472",
-            "net48",
-            "net481"
+            "net48"
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "frameworkReferences": {
-            "Microsoft.NETCore.App": {
-              "privateAssets": "all"
-            }
-          },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.401/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     }
